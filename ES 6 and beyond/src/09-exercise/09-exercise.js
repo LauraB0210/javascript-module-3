@@ -9,7 +9,7 @@
  */
 
 // Finish the code of the function
-function exercise09() {
+function exercise09 () {
     const days = [
         ["Monday"],
         ["Tuesday"],
@@ -17,6 +17,8 @@ function exercise09() {
         ["Thursday"],
         ["Friday"],
     ];
+
+    return days.flat();
 }
 
 // Don’t change the code bellow this line
