@@ -14,3 +14,7 @@
  *
  * export default test;
  */
+
+export function divide (a, b ) {
+    return (a + b); 
+}
