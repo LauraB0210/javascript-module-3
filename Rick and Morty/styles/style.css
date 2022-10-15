@@ -1,0 +1,42 @@
+div#root {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    font-family: "Poppins-Regular",
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif !important;
+
+}
+
+div#header {
+    height: 64px;
+    padding: 16px 64px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div#content {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    background-color: #d4d4d4;
+    height: 100%;
+}
+
+div#sidebar {
+    width: 448px;
+    padding: 16px;
+    background-color: #fefefe;
+
+}
+
+div#main {
+    height: 100%;
+}
