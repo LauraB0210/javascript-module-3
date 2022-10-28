@@ -6,8 +6,21 @@
     "author": "Yogi",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest --watchAll"
     },
+
+     "jest": {
+        "testMatch": [
+            "**/*-exercise.test.js"
+        ],
+        "reporters": [
+            "default",
+            ["./node_modules/jest-html-reporter", {
+                "pageTitle": "Test Report"
+            }]
+        ]
+    },
+    
     "dependencies": {
         "@babel/core": "^7.11.1",
         "@babel/preset-env": "^7.11.0",

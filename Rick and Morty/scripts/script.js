@@ -1,5 +1,7 @@
 
-    fetch("https://rickandmortyapi.com/api/episode/", {
+    function episodes (){
+        
+        fetch("https://rickandmortyapi.com/api/episode/", {
         
     })
     .then(
@@ -12,4 +14,6 @@
         res => document.getElementById('sidebar').innerHTML = res.join('')
     )
 
-    
+    }
+
+    episodes ()
