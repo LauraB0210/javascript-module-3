@@ -107,5 +107,9 @@ describe("05-exercises", () => {
      */
 
     // Write the assertion
+
+    const result = getUserInfo(user)
+
+    expect(result).not.toEqual(expect.objectContaining(userAddress))
   });
 });
